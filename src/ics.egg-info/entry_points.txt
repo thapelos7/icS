@@ -1,0 +1,3 @@
+[console_scripts]
+run-gates-tb = gates.gates_tb_gui:runner
+run-sev_seg-tb = IC_7447.bcd_to_seven_seg_converter_tb:runner

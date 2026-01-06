@@ -1,0 +1,4 @@
+Metadata-Version: 2.4
+Name: ics
+Version: 2026.1.0
+Requires-Dist: pyqt5

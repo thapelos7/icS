@@ -1,0 +1,4 @@
+IC_7447
+gates
+primitives
+ttl_74xx_ics
