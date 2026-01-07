@@ -8,7 +8,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "ics"
 version = "2026.1.0"
-dependencies = ["pyqt5"]
+dependencies = ["pyqt5", "matplotlib"]
 
 [project.scripts]
 run-gates-tb = "gates.gates_tb_gui:runner"
@@ -17,3 +17,4 @@ run-sev_seg-tb = "IC_7447.bcd_to_seven_seg_converter_tb:runner"
 [tool.setuptools.packages.find]
 where = ["src"]
 include = ["gates*", "IC_7447*", "primitives*", "ttl_74xx_ics*"]
+
