@@ -17,6 +17,5 @@ run-ttl_74xx-tb = "ttl_74xx_ics.ttl_74xx_ics_tb:runner"
 
 [tool.setuptools.packages.find]
 where = ["src"]
-include = ["gates*", "IC_7447*", "ttl_74xx_ics*"]
-
+include = ["gates*", "IC_7447*", "primitives*", "ttl_74xx_ics*"]
 

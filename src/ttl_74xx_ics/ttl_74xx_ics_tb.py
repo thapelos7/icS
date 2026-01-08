@@ -6,7 +6,7 @@ FILE            : ttl_74xx_ics_tb.py
 
 PROJECT DESCRIPTION
 -------------------
-This script serves as a testbench for the TTL 74xx IC simulation module.
+This script serves as a testbench for the TTL 74xx single IC at a time.
 
 It demonstrates:
     - Instantiation of a digital IC object (e.g., 7400 Quad 2-Input NAND).
@@ -18,7 +18,7 @@ Modules Used:
     matplotlib.pyplot
     - For plotting pin states.
 
-    ttl_74xx_ics
+    ttl_74xx_ic
     - Contains IC class definitions for TTL 74xx series.
 
 Sequential reading order (sequential project flow)
@@ -31,7 +31,7 @@ Sequential reading order (sequential project flow)
 
     ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ (optional) ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
 
-    -- ttl_74xx_ics.py                       --> basic applications of gate.py and integrated_circuit.py
+    -- ttl_74xx_ic.py                        --> basic applications of gate.py and integrated_circuit.py
     -- ttl_74xx_ics_tb (current file)        --> non-interactive graphical visualizations
 
 TO NOTE:
@@ -44,17 +44,16 @@ TO NOTE:
     ~ EXTERNAL STIMULATION FACTORS SUCH AS SWITCH DEBOUNCING, TEMPERATURES,
       PROPAGATION DELAY etc...HAVE BEEN NEGLETED
     
-    ALSO THIS IS A GRAPHICAL NON-GUI TESTBENCH for the ttl 74xx ics
+    ALSO THIS IS A GRAPHICAL NON-GUI TESTBENCH for the ttl 74xx ic
 """
 
 import matplotlib.pyplot as plt
-from ttl_74xx_ics import (
-                          IC_7400_QUAD_2_INPUT_NAND, IC_7404_HEX_INVERTER,
-                          IC_7402_QUAD_2_INPUT_NOR, IC_7408_QUAD_2_INPUT_NOR
-)
+from ttl_74xx_ics.ttl_74xx_ic import *
 
-# intatiation of a digital integrated circuit and displaying its pins and their states
 def runner():
+
+    # intatiation of a digital integrated circuit and displaying its pins and their states
+
     digi_ic = IC_7400_QUAD_2_INPUT_NAND(True, False, 14)
     print(digi_ic.process())
 

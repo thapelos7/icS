@@ -2,7 +2,7 @@
 AUTHOR          : TS MOTSUMI
 DATE PUBLISHED  : Jan 2026
 LAST LOGIC EDIT : Dec 2025
-FILE            : ttl_74xx_ics.py
+FILE            : ttl_74xx_ic.py
 
 PROJECT DESCRIPTION
 --------------------
@@ -35,7 +35,7 @@ Sequential reading order (sequential project flow)
 
     ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ (optional) ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
 
-    -- ttl_74xx_ics.py (current file)        --> basic applications of gate.py and integrated_circuit.py
+    -- ttl_74xx_ic.py (current file)         --> basic applications of gate.py and integrated_circuit.py
     -- ttl_74xx_ics_tb                       --> non-interactive graphical visualizations
 
 TO NOTE:
@@ -48,7 +48,7 @@ TO NOTE:
     ~ EXTERNAL STIMULATION FACTORS SUCH AS SWITCH DEBOUNCING, TEMPERATURES,
       PROPAGATION DELAY etc...HAVE BEEN NEGLETED
     
-    ALSO THESE ARE Abstractions OF THE ttl 74xx ics
+    ALSO THESE ARE Abstractions OF THE ttl 74xx ic
 """
 
 from primitives.gates import *

@@ -32,7 +32,7 @@ Sequential reading order (sequential project flow)
 
     ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ (optional) ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
 
-    -- ttl_74xx_ics.py                       --> basic applications of gate.py and integrated_circuit.py
+    -- ttl_74xx_ic.py                        --> basic applications of gate.py and integrated_circuit.py
     -- ttl_74xx_ics_tb                       --> non-interactive graphical visualizations
 
 TO NOTE:

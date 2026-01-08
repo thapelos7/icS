@@ -25,7 +25,7 @@ Sequential reading order (for project intuition)
     -- later you can explore ttl_74xx_ics.py, ttl_74xx_ics_tb.py and IC-specific GUIs
 
     ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ (optional) ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
-    ttl_74xx_ics.py, ttl_74xx_ics_tb.py --> basic applications of gate.py and integrated_circuit.py
+    ttl_74xx_ic.py, ttl_74xx_ics_tb.py --> basic applications of gate.py and integrated_circuit.py
 """ 
 from abc import abstractmethod as absm
 
