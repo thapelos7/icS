@@ -39,11 +39,11 @@ src/
 │   └── __init__.py
 │
 ├── ttl_74xx_ics/              # 7400, 7402, 7404, 7408
-│   ├── ttl_74xx_ics.py
+│   ├── ttl_74xx_ic.py
 │   ├── ttl_74xx_ics_tb.py
 │   └── __init__.py
 │
-└── pyproject.toml             # Entry points: run-gates-tb, run-sev_seg-tb
+└── pyproject.toml             # Entry points: run-gates-tb, run-sev_seg-tb, run-ttl_74xx-tb
 ```
 
 ***
